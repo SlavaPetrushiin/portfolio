@@ -6,7 +6,7 @@ function Footer() {
     <footer className={classes.footer}>
 			<div className={classes.footerBlock}>
 				<div className={classes.footerLogo}>
-					<a href="#">Вячеслав</a>
+					<a href="#">Вячеслав Петрушин</a>
 				</div>
 				<ul className={classes.footerSocial}>
 					<li className={classes.footerLink}>
