@@ -1,0 +1,57 @@
+.projects{
+	height: 100vh;
+	background-color: rgb(192, 219, 128);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.projectsBlock{
+	border: 1px solid black;
+	width: 1200px;
+}
+
+.projectsTitle{
+	text-align: center;
+	margin-bottom: 15px;	
+}
+
+.projectsWorks{
+	display: flex;
+	justify-content: space-between;
+}
+
+.projectsWork{
+	width: 40%;
+	border: 1px solid rgb(218, 25, 25);	
+}
+
+.projectsImg{
+	position: relative;
+	height: 400px;
+  background-image: url('https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.projectsImg::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgb(85, 83, 83);
+	opacity: 0.7;	
+}
+
+.projectsBtn{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.projectsDescription{
+	text-align: center;
+}

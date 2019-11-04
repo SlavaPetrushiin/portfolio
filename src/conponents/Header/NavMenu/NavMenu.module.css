@@ -1,0 +1,10 @@
+.nav{
+	width: 360px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.link{
+	text-decoration: none;
+	color: rgb(255, 38, 0);
+}

@@ -1,0 +1,45 @@
+.contacts{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #1f1f20;
+}
+
+.contactsBlock{
+	width: 460px;
+	height: 400px;
+}
+
+.contactsFormItems{
+	list-style-type:none;
+	padding: 0;
+}
+
+.contactsFormItem{
+	margin: 10px 0;
+}
+
+.contactsFormItem input, textarea  {
+	display: inline-block;
+	width: 100%;
+	padding: 15px 10px;
+	border: 1px solid #4a4a4a;
+	background-color :#252527;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+.formHover:hover  {
+	border-color: gold;
+}
+
+.contactsFormItem textarea{
+	height: 200px;
+}
+
+.contactsTitle{
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 20px;;
+}
