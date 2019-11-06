@@ -9,6 +9,7 @@
 .footerBlock{
 	width: 1200px;
 	border: 1px solid red;
+	padding: 0 15px;	
 }
 
 .footerBlock a{
@@ -31,4 +32,11 @@
 
 .footerLink{
 	margin: 5px 20px;
+}
+
+@media (max-width: 480px){
+	.footerSocial{
+		flex-direction: column;
+		align-items: center;
+	}	
 }

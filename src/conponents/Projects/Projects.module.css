@@ -1,5 +1,5 @@
 .projects{
-	height: 100vh;
+	min-height: 100vh;
 	background-color: rgb(192, 219, 128);
 	display: flex;
 	justify-content: center;
@@ -8,6 +8,7 @@
 .projectsBlock{
 	border: 1px solid black;
 	width: 1200px;
+	padding: 0 15px;	
 }
 
 .projectsTitle{
@@ -17,12 +18,14 @@
 
 .projectsWorks{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .projectsWork{
-	width: 40%;
-	border: 1px solid rgb(218, 25, 25);	
+	width: 25%;
+	border: 1px solid rgb(218, 25, 25);
+	margin: 10px 20px;	
 }
 
 .projectsImg{
@@ -54,4 +57,22 @@
 
 .projectsDescription{
 	text-align: center;
+}
+
+@media (max-width: 1000px){
+	.projectsWork{
+		width: 40%;
+	}	
+}
+
+@media (max-width: 667px){
+	.projectsWorks{
+		justify-content: center;
+	}	
+	.projectsWork{
+		width: 60%;
+	}
+	.projectsImg{
+		height: 300px;
+	}		
 }

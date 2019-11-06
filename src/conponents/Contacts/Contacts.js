@@ -11,16 +11,17 @@ function Contacts() {
 							<h2 className={classes.contactsTitle}>Контакты</h2>
 						</li>
 						<li className={classes.contactsFormItem}>
-							<input type="text" name="name" placeholder="Имя" class={classes.formHover}/>
+							<input type="text" name="user_name" placeholder="Имя" required class={classes.formHover}/>
 						</li>
 						<li className={classes.contactsFormItem}>
-							<input type="text" name="name" placeholder="E-mail" class={classes.formHover}/>
+							<input type="email" name="user_email" placeholder="E-mail" required class={classes.formHover}/>
 						</li>
 						<li className={classes.contactsFormItem}>
 							<textarea type="text" name="name" placeholder="Введите текст" class={classes.formHover}/>
 						</li>												
 					</ul>					
 				</form>
+				<button className={classes.contactsFormBtn}>Отправить</button>
 			</div>
     </div>
   );

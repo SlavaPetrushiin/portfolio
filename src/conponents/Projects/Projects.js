@@ -25,6 +25,24 @@ function Projects() {
 							<p>Краткое описание</p>
 						</div>
 					</div>					
+					<div className={classes.projectsWork}>
+						<div className={classes.projectsImg}>
+							<button className={classes.projectsBtn}>Смотреть</button>
+						</div>
+						<div className={classes.projectsDescription}>
+							<p>Название проекта</p>
+							<p>Краткое описание</p>
+						</div>
+					</div>					
+					<div className={classes.projectsWork}>
+						<div className={classes.projectsImg}>
+							<button className={classes.projectsBtn}>Смотреть</button>
+						</div>
+						<div className={classes.projectsDescription}>
+							<p>Название проекта</p>
+							<p>Краткое описание</p>
+						</div>
+					</div>					
 				</div>
 			</div>
     </div>

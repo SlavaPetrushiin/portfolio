@@ -9,6 +9,8 @@
 .contactsBlock{
 	width: 460px;
 	height: 400px;
+	text-align: center;
+	padding: 0 15px;
 }
 
 .contactsFormItems{
@@ -42,4 +44,22 @@
 	text-align: center;
 	color: #ffffff;
 	margin-bottom: 20px;;
+}
+
+.contactsFormBtn{
+	display: inline-block;
+	padding: 15px 10px;
+	border: none;
+	background-color: rgb(43, 50, 51);
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 180px;
+	border-radius: 15px;
+	transition: .5s;
+}
+
+.contactsFormBtn:hover{
+	background-color: rgb(22, 24, 22);
+	color: gold;
 }

@@ -11,6 +11,7 @@
 	flex-direction: column;
 	width: 1200px;
 	border: 1px solid black;
+	padding: 0 15px;	
 }
 
 .skillsTitle{
@@ -43,4 +44,10 @@
 
 .skillsDescription{
 
+}
+
+@media (max-width: 600px){
+	.skillsElements{
+		flex-direction: column;
+	}	
 }
