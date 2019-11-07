@@ -23,5 +23,8 @@
 @media (max-width: 480px){
 	.header{
 		height: 100px;
-	}	
+	}
+	.container{
+		width: 100%;
+	}		
 }

@@ -2,8 +2,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	background-color: rgb(216, 169, 218);
+	min-height: 100vh;
+	background-color: #111112;
+	color: #ffffff;
 }
 .skillsBlock{
 	display: flex;
@@ -18,23 +19,22 @@
  padding: 7px;
 }
 
-.skillsElements{
+.skillsDescriptions{
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 }
 
-.skillsElement{
+.skill{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	margin: 10px;
 	padding: 5px;	
-	border: 1px solid red;
 	flex: 1;
 }
 
-.skillsElement img{
+.skill img{
 	width: 100px;
 } 
 
@@ -42,12 +42,12 @@
 
 }
 
-.skillsDescription{
-
+.skill{
+	text-align: center;
 }
 
 @media (max-width: 600px){
-	.skillsElements{
+	.skillsDescriptions{
 		flex-direction: column;
 	}	
 }

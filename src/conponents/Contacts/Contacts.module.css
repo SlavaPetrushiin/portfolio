@@ -13,16 +13,20 @@
 	padding: 0 15px;
 }
 
-.contactsFormItems{
+.formGroup{
+	
+}
+
+.contactsGroup{
 	list-style-type:none;
 	padding: 0;
 }
 
-.contactsFormItem{
+.contact{
 	margin: 10px 0;
 }
 
-.contactsFormItem input, textarea  {
+.contact input, textarea  {
 	display: inline-block;
 	width: 100%;
 	padding: 15px 10px;
