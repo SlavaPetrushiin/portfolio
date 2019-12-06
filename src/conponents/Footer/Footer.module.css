@@ -4,11 +4,11 @@
 	align-items: center;
 	height: 300px;
 	background-color: #252527;
+	padding: 100px 0;	
 }
 
 .footerBlock{
 	width: 1200px;
-	border: 1px solid red;
 	padding: 0 15px;	
 }
 
