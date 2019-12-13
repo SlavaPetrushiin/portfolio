@@ -22,57 +22,8 @@
 	justify-content: space-between;
 }
 
-.projectsWork{
-	width: 25%;
-	margin: 10px 20px;	
-}
-
-.projectsImg{
-	position: relative;
-	height: 400px;
-  background-image: url('https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.projectsImg::before{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgb(85, 83, 83);
-	opacity: 0.7;	
-}
-
-.projectsBtn{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.projectsDescription{
-	padding: 10px 0;
-	text-align: center;
-}
-
-@media (max-width: 1000px){
-	.projectsWork{
-		width: 40%;
-	}	
-}
-
 @media (max-width: 667px){
 	.projectsWorks{
 		justify-content: center;
 	}	
-	.projectsWork{
-		width: 60%;
-	}
-	.projectsImg{
-		height: 300px;
-	}		
 }

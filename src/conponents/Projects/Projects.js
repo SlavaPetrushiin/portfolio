@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Projects.module.css';
+import Project from './Project/Project';
 
 function Projects() {
   return (
@@ -7,42 +8,10 @@ function Projects() {
 			<div className={classes.projectsBlock}>
 				<h2 className={classes.projectsTitle}>Мои Работы</h2>					
 				<div className={classes.projectsWorks}>
-					<div className={classes.projectsWork}>
-						<div className={classes.projectsImg}>
-							<button className={classes.projectsBtn}>Смотреть</button>
-						</div>
-						<div className={classes.projectsDescription}>
-							<p>Название проекта</p>
-							<p>Краткое описание</p>
-						</div>
-					</div>
-					<div className={classes.projectsWork}>
-						<div className={classes.projectsImg}>
-							<button className={classes.projectsBtn}>Смотреть</button>
-						</div>
-						<div className={classes.projectsDescription}>
-							<p>Название проекта</p>
-							<p>Краткое описание</p>
-						</div>
-					</div>					
-					<div className={classes.projectsWork}>
-						<div className={classes.projectsImg}>
-							<button className={classes.projectsBtn}>Смотреть</button>
-						</div>
-						<div className={classes.projectsDescription}>
-							<p>Название проекта</p>
-							<p>Краткое описание</p>
-						</div>
-					</div>					
-					<div className={classes.projectsWork}>
-						<div className={classes.projectsImg}>
-							<button className={classes.projectsBtn}>Смотреть</button>
-						</div>
-						<div className={classes.projectsDescription}>
-							<p>Название проекта</p>
-							<p>Краткое описание</p>
-						</div>
-					</div>					
+					<Project />
+					<Project />
+					<Project />
+					<Project />					
 				</div>
 			</div>
     </div>

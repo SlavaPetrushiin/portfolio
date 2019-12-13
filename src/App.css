@@ -9,3 +9,20 @@ p{
 	margin: 0;
 }
 
+.btn{
+	display: inline-block;
+	padding: 15px 10px;
+	border: none;
+	background-color: rgb(43, 50, 51);
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 180px;
+	border-radius: 15px;
+	transition: .5s;	
+}
+
+.btn:hover{
+	background-color: rgb(53, 68, 68);
+}
+

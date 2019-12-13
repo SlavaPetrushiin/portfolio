@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Contacts.module.css';
+import Button from '../Button/Button';
 
 function Contacts() {
   return (
@@ -11,17 +12,17 @@ function Contacts() {
 							<h2 className={classes.contactsTitle}>Контакты</h2>
 						</li>
 						<li className={classes.contact}>
-							<input type="text" name="user_name" placeholder="Имя" required class={classes.formHover}/>
+							<input type="text" name="user_name" placeholder="Имя" required className={classes.formHover}/>
 						</li>
 						<li className={classes.contact}>
-							<input type="email" name="user_email" placeholder="E-mail" required class={classes.formHover}/>
+							<input type="email" name="user_email" placeholder="E-mail" required className={classes.formHover}/>
 						</li>
 						<li className={classes.contact}>
-							<textarea type="text" name="name" placeholder="Введите текст" class={classes.formHover}/>
+							<textarea type="text" name="name" placeholder="Введите текст" className={classes.formHover}/>
 						</li>												
 					</ul>					
 				</form>
-				<button className={classes.contactsFormBtn}>Отправить</button>
+				<Button title={"Отправить"} />
 			</div>
     </div>
   );

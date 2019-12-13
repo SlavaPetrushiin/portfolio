@@ -4,7 +4,7 @@ import classes from './Skill.module.css';
 function Skill(props) {
 	const divStyle = {
 		backgroundImage: {
-			'background-image': `url("${props.url}")` 
+			'backgroundImage': `url("${props.url}")` 
 		}
 	}
 

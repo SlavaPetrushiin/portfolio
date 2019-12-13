@@ -8,9 +8,9 @@ class Skills extends React.Component {
 		this.state = {
 			skills : [
 				{id : 0, title : 'HTML', url : 'https://www.bryan-myers.com/images/1x1/html5.png', text : "Повседневная практика показывает, что социально-экономическое развитие способствует повышению качества своевременного выполнения сверхзадачи."},
-				{id : 0, title : 'CSS', url : 'https://i.ya-webdesign.com/images/css-3-logo-png-7.png', text : "Повседневная практика показывает, что социально-экономическое развитие способствует повышению качества своевременного выполнения сверхзадачи."},
-				{id : 0, title : 'React',  url : 'https://hsto.org/webt/bf/6m/q3/bf6mq3wmejwlzxaiuiseo0idri0.png', text : "Повседневная практика показывает, что социально-экономическое развитие способствует повышению качества своевременного выполнения сверхзадачи."},
-				{id : 0, title : 'JS', url : 'https://hsto.org/webt/bf/6m/q3/bf6mq3wmejwlzxaiuiseo0idri0.png', text : "Повседневная практика показывает, что социально-экономическое развитие способствует повышению качества своевременного выполнения сверхзадачи."},	
+				{id : 1, title : 'CSS', url : 'https://i.ya-webdesign.com/images/css-3-logo-png-7.png', text : "Повседневная практика показывает, что социально-экономическое развитие способствует повышению качества своевременного выполнения сверхзадачи."},
+				{id : 2, title : 'React',  url : 'https://hsto.org/webt/bf/6m/q3/bf6mq3wmejwlzxaiuiseo0idri0.png', text : "Повседневная практика показывает, что социально-экономическое развитие способствует повышению качества своевременного выполнения сверхзадачи."},
+				{id : 3, title : 'JS', url : 'https://hsto.org/webt/bf/6m/q3/bf6mq3wmejwlzxaiuiseo0idri0.png', text : "Повседневная практика показывает, что социально-экономическое развитие способствует повышению качества своевременного выполнения сверхзадачи."},	
 			]
 		}
 	}
@@ -19,7 +19,8 @@ class Skills extends React.Component {
 			return <Skill
 				text={skill.text}
 				title={skill.title}
-				url={skill.url}/>
+				url={skill.url}
+				key={skill.id}/>
 		})
 		return (
 			<div className={classes.skills}>
