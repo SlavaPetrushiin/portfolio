@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Footer.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Footer() {
   return (
@@ -10,17 +11,20 @@ function Footer() {
 				</div>
 				<ul className={classes.footerSocial}>
 					<li className={classes.footerLink}>
-						<a href="#">Facebook</a>
+						<a href="#">
+							<FontAwesomeIcon icon={['fab', 'facebook']} />
+						</a>
 					</li>
 					<li className={classes.footerLink}>
-						<a href="#">VK</a>
+						<a href="#">
+							<FontAwesomeIcon icon={['fab', 'vk']} />
+						</a>
 					</li>
 					<li className={classes.footerLink}>
-						<a href="#">Instagram</a>
+						<a href="#">
+							<FontAwesomeIcon icon={['fab', 'instagram']}/>
+						</a>
 					</li>
-					<li className={classes.footerLink}>
-						<a href="#">Ok</a>
-					</li>															
 				</ul>	
 			</div>
     </footer>
