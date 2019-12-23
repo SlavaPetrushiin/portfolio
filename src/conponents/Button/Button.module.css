@@ -1,4 +1,10 @@
 .button{
 	composes: btn from "./../../App.css";
+	outline: 1px solid transparent
 }
+
+.button:hover{
+	background-color: #5769bd;
+}
+
 

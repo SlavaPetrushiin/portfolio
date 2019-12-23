@@ -11,7 +11,6 @@ import Slogan from './conponents/Slogan/Slogan';
 import Contacts from './conponents/Contacts/Contacts';
 import Footer from './conponents/Footer/Footer';
 
-
 library.add(fab, faCheckSquare, faCoffee);
 
 function App() {
