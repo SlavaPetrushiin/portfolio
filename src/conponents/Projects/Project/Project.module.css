@@ -1,6 +1,7 @@
 .projectsWork{
 	width: 25%;
-	margin: 10px 20px;	
+	margin: 40px 20px;
+	background-color:#111112;	
 }
 
 .projectsImg{
@@ -9,6 +10,25 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.projectsImg a{
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 10px;
+	border: none;
+	background-color: rgb(43, 50, 51);
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 180px;
+	border-radius: 15px;
+	transition: .5s;		
+}
+
+.projectsImg a:hover{
+	background-color: #5769bd;	
 }
 
 .projectsImg::before{
@@ -30,8 +50,24 @@
 }
 
 .projectsDescription{
-	padding: 10px 0;
-	text-align: center;
+	padding: 15px;
+}
+
+.projectTitle{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	margin: 10px 0;	
+}
+
+.projectText{
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-stretch: normal;
+	font-size: 14px;
+	line-height: 1.8;
+	letter-spacing: 1px;	
 }
 
 @media (max-width: 1000px){

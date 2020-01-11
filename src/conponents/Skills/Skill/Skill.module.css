@@ -26,6 +26,24 @@
 	transform: rotate(-45deg);	
 }
 
+.skillTitle{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.skillText{
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-stretch: normal;
+	font-size: 14px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+}
+
 @media (max-width: 800px){
 	.skill{
 		margin-bottom: 20px;

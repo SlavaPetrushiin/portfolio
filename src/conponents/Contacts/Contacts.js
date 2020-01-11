@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Contacts.module.css';
 import Button from '../Button/Button';
+import TitleBlock from '../commonBlocks/TitleBlock/TitleBlock';
 
 function Contacts() {
   return (
@@ -9,7 +10,7 @@ function Contacts() {
 				<form className={classes.formGroup} action="" method="post" name="contact_form">
 					<ul className={classes.contactsGroup}>
 						<li className={classes.contact}>
-							<h2 className={classes.contactsTitle}>Контакты</h2>
+							<TitleBlock title={"Контакты"}/>
 						</li>
 						<li className={classes.contact}>
 							<input type="text" name="user_name" placeholder="Имя" required className={classes.formHover}/>

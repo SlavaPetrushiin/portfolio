@@ -32,6 +32,14 @@
 
 .footerLink{
 	margin: 5px 20px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: .5s;
 }
 
 .footerLink a{
@@ -45,4 +53,5 @@
 .footerLink a svg:hover{
 	color: #5769bd;
 }
+
 

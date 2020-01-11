@@ -15,7 +15,7 @@ function Skill(props) {
 			</div>
 			<div className={classes.skillDescription}>
 				<h3 className={classes.skillTitle}>{props.title}</h3>
-				<p>{props.text}</p>
+				<p className={classes.skillText}>{props.text}</p>
 			</div>
 		</div>
   );

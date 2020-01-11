@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Project.module.css';
-import Button from '../../Button/Button';
 
 const Project = (props) => {
 	const divStyle = {
@@ -17,11 +16,11 @@ const Project = (props) => {
 	return (
 		<div className={classes.projectsWork}>
 			<div className={classes.projectsImg} style={divStyle.background}>
-				<Button title={"Смотреть"} style={divStyle.btn}/>
+				<a href="#" style={divStyle.btn}>Смотреть</a>
 			</div>
 			<div className={classes.projectsDescription}>
-				<p>{props.projectInfo.title}</p>
-				<p>{props.projectInfo.description}</p>
+				<p className={classes.projectTitle}>{props.projectInfo.title}</p>
+				<p className={classes.projectText}>{props.projectInfo.description}</p>
 			</div>
 		</div>			
 	)
