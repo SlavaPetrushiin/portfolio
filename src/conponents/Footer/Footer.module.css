@@ -4,7 +4,8 @@
 	align-items: center;
 	min-height: 300px;
 	background-color: #252527;
-	padding: 100px 0;	
+	padding: 100px 0;
+	position: relative;
 }
 
 .footerBlock{
@@ -34,24 +35,33 @@
 	margin: 5px 20px;
 	width: 60px;
 	height: 60px;
+	display: flex;
+}
+
+.footerLink a{
+	font-size: 30px;
 	border: 1px solid #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
 	transition: .5s;
-}
-
-.footerLink a{
-	font-size: 30px;
+	width: 100%;
+	height: 100%;
 }
 
 .footerLink a svg{
 	transition: .5s;	
 }
 
-.footerLink a svg:hover{
+.footerLink a:hover{
+	border: 1px solid #5769bd;
+}
+
+.footerLink a:hover svg{
 	color: #5769bd;
 }
+
+
 
 

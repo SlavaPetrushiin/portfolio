@@ -7,7 +7,7 @@ function NavMenu() {
 			<a href='#' className={classes.link}>Главная</a>
 			<a href='#' className={classes.link}>Скилы</a>
 			<a href='#' className={classes.link}>Работы</a>
-			<a href='#' className={classes.link}>Контакты</a>
+			<a href='#contacts' className={classes.link}>Контакты</a>
 		</nav>
   );
 }

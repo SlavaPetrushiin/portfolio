@@ -60,6 +60,11 @@
 	margin-top: 50px;
 	position: relative;
 	z-index: 1;
+	transition: .5s;
+}
+
+.blockPhoto:hover {
+	transform: scale(1.1);
 }
 
 .photoImage{
@@ -70,6 +75,9 @@
 	background-position: center;
 	z-index: 1;
 }
+
+
+
 
 .photoImage:before{
 	content: '';
