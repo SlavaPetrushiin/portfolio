@@ -34,6 +34,7 @@
 	border: 1px solid #4a4a4a;
 	background-color :#252527;
 	border-radius: 5px;
+	color: #ffffff;
 	transition: all 0.4s ease-in-out 0s;
 }
 
@@ -43,6 +44,11 @@
 
 .contact input:hover , textarea:hover  {
 	border-color: #5769bd;
+}
+
+.contact textarea  {
+	resize: none;
+	height: 150px;
 }
 
 .contactsFormItem textarea{

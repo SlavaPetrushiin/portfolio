@@ -1,6 +1,7 @@
 .button{
 	composes: btn from "./../../App.css";
-	outline: 1px solid transparent
+	outline: 1px solid transparent;
+	cursor: pointer;
 }
 
 .button:hover{

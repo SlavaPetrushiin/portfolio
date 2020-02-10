@@ -16,7 +16,7 @@ const Project = (props) => {
 	return (
 		<div className={classes.projectsWork}>
 			<div className={classes.projectsImg} style={divStyle.background}>
-				<a href={props.href} style={divStyle.btn}>Смотреть</a>
+				<a href={props.projectInfo.href} target="_blank" style={divStyle.btn}>Смотреть</a>
 			</div>
 			<div className={classes.projectsDescription}>
 				<p className={classes.projectTitle}>{props.projectInfo.title}</p>

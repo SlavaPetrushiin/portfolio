@@ -10,25 +10,25 @@ class Projects extends React.Component {
         projects: [
             {
                 title: "Burger shop",
-                description: "A shop selling burgers, senior project LoftSchoool",
+                description: "Лейдинг Бургерной",
                 url: siteBurger,
                 href: "https://slavapetrushiin.github.io/siteBurgers/"
             },
             {
-                title: "Burger shop",
-                description: "A shop selling burgers, senior project LoftSchoool",
+                title: "ToDoList",
+                description: "Умное планирование задач!",
                 url: "https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg",
-				href: ""
+				href: "https://slavapetrushiin.github.io/todolist/"
             },
             {
-                title: "Burger shop",
-                description: "A shop selling burgers, senior project LoftSchoool",
+                title: "Social network",
+                description: "Приложение социальная сеть",
                 url: "https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg",
-				href: ""
+				href: "https://slavapetrushiin.github.io/social-network/"
             },
             {
-                title: "Burger shop",
-                description: "A shop selling burgers, senior project LoftSchoool",
+                title: "Color rating",
+                description: "Рейтинг цветов",
                 url: "https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg",
 				href: ""
             },
@@ -37,13 +37,13 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div className={classes.projects}>
+            <div id='projects' className={classes.projects}>
                 <Fade bottom>
                     <div className={classes.projectsBlock}>
                         <TitleBlock title={"Мои Работы"}/>
                         <div className={classes.projectsWorks}>
                             {
-                                this.state.projects.map(project => <Project projectInfo={project}/>)
+                                this.state.projects.map((project, i) => <Project key={i} projectInfo={project}/>)
                             }
                         </div>
                     </div>

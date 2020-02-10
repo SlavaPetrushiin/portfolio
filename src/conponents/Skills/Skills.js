@@ -44,7 +44,7 @@ class Skills extends React.Component {
                 key={skill.id}/>
         })
         return (
-            <div className={classes.skills}>
+            <div id="skills" className={classes.skills}>
 				<Fade bottom>
 					<div className={classes.container}>
 						<TitleBlock title={"Мои Скилы"}/>
