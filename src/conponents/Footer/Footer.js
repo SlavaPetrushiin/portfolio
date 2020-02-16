@@ -7,33 +7,31 @@ function Footer() {
     return (
         <footer className={classes.footer}>
             <Fade bottom>
-				<div className={classes.footerBlock}>
-					<div className={classes.footerLogo}>
-						<a href="#" target="_blank">Вячеслав Петрушин</a>
-					</div>
-					<ul className={classes.footerSocial}>
-						<li className={classes.footerLink}>
+                <div className={classes.footerBlock}>
+					<h2 className={classes.footerTitle}>Вячеслав Петрушин</h2>
+					<div className={classes.socialLinks}>
+						<div className={classes.footerLink}>
 							<a href="#" target="_blank" rel="noreferrer noopener">
 								<FontAwesomeIcon icon={['fab', 'facebook']}/>
 							</a>
-						</li>
-						<li className={classes.footerLink}>
+						</div>
+						<div className={classes.footerLink}>
 							<a href="https://vk.com/id58620112" target="_blank" rel="noreferrer noopener">
 								<FontAwesomeIcon icon={['fab', 'vk']}/>
 							</a>
-						</li>
-						<li className={classes.footerLink}>
+						</div>
+						<div className={classes.footerLink}>
 							<a href="#" target="_blank" rel="noreferrer noopener">
 								<FontAwesomeIcon icon={['fab', 'instagram']}/>
 							</a>
-						</li>
-						<li className={classes.footerLink}>
+						</div>
+						<div className={classes.footerLink}>
 							<a href="#" target="_blank" rel="noreferrer noopener">
 								<FontAwesomeIcon icon={['fab', 'telegram']}/>
 							</a>
-						</li>
-					</ul>
-				</div>
+						</div>
+					</div>
+                </div>
             </Fade>
         </footer>
     );

@@ -12,6 +12,7 @@ p{
 .btn{
 	display: inline-block;
 	padding: 15px 10px;
+	margin: 0 auto;
 	border: none;
 	background-color: rgb(43, 50, 51);
 	color: #ffffff;
