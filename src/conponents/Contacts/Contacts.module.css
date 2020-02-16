@@ -34,9 +34,26 @@
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 1.5;
-	color: #495057;
+	color: #CFE2F3;
 	padding: 10px;
 	margin-bottom: 1.2rem;
+}
+
+
+.formArea::-webkit-input-placeholder { color: #C6D8DF; }
+.formArea::-moz-placeholder {color: #C6D8DF; }
+.formArea::-ms-input-placeholder { color: #C6D8DF; }
+
+.messageArea::-webkit-input-placeholder { color: #C6D8DF; }
+.messageArea::-moz-placeholder {color: #C6D8DF; }
+.messageArea::-ms-input-placeholder { color: #C6D8DF; }
+
+
+.messageArea:focus, .formArea:focus {
+	color: #C6D8DF;
+	border: none;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(87, 105, 189, 0.6);
 }
 
 .messageArea{
