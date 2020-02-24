@@ -1,11 +1,12 @@
 .button{
 	composes: btn from "./../../App.css";
+	background-color: #5769bd;
 	outline: 1px solid transparent;
 	cursor: pointer;
 }
 
 .button:hover{
-	background-color: #5769bd;
+	background-color: #3E4FBD;
 }
 
 

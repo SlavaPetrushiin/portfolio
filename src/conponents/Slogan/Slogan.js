@@ -12,7 +12,7 @@ function Slogan() {
                     <TitleBlock title={"Рассматриваю варианты удаленной рабты"}/>
                 </Fade>
                 <Fade right>
-                    <Button title={"Нанять меня"}/>
+                    <Button title={"Нанять меня"} />
                 </Fade>
             </div>
         </div>

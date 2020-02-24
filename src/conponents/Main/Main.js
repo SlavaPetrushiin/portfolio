@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Main.module.css';
+import avatar from './../../assets/img/avatar.png';
 
 function Main() {
     return (
@@ -11,7 +12,7 @@ function Main() {
                     <h1>Я frot-end разработчик</h1>
                 </div>
                 <div className={classes.blockPhoto}>
-                    <div className={classes.photoImage}></div>
+                    <div className={classes.photoImage} style={{backgroundImage: `url(${avatar})`}}></div>
                 </div>
             </div>
         </div>

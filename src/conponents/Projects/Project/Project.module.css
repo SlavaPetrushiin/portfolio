@@ -1,5 +1,5 @@
 .projectsWork {
-    width: 25%;
+    width: 450px;
     margin: 40px 20px;
     background-color: #111112;
 }
@@ -71,24 +71,34 @@
     letter-spacing: 1px;
 }
 
-@media (max-width: 1000px) {
+.btnGLink{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+
+.btnGit{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+@media (max-width: 1040px) {
     .projectsWork {
-        width: 40%;
+        width: 400px;
     }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 930px) {
     .projectsWork {
-        width: 60%;
-    }
-
-    .projectsImg {
-        height: 300px;
+        width: 360px;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 360px){
     .projectsWork {
-        width: 100%;
+        width: 260px;
     }
 }

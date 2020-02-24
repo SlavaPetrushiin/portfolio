@@ -70,9 +70,7 @@
 .photoImage{
 	width: 100%;
 	height: 100%;
-	background-image: url('https://avatars.mds.yandex.net/get-pdb/1732919/f8a3fbfa-3fe2-4040-aa79-706e08e54a94/s1200?webp=false');
 	background-size: cover;
-	background-position: center;
 	z-index: 1;
 }
 

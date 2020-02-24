@@ -3,12 +3,6 @@ import classes from './Project.module.css';
 
 const Project = (props) => {
 	const divStyle = {
-		btn : {
-			'position': 'absolute',
-			'top': `50%`,
-			'left': `50%`,
-			'transform': `translate(-50%, -50%)`
-		},
 		background : {
 			'backgroundImage': `url('${props.projectInfo.url}')`
 		}
@@ -16,7 +10,8 @@ const Project = (props) => {
 	return (
 		<div className={classes.projectsWork}>
 			<div className={classes.projectsImg} style={divStyle.background}>
-				<a href={props.projectInfo.href} target="_blank" style={divStyle.btn}>Смотреть</a>
+				<a href={props.projectInfo.href} target="_blank" className={classes.btnGLink}>Смотреть</a>
+				<a href={props.projectInfo.git} target="_blank" className={classes.btnGit}>Git</a>
 			</div>
 			<div className={classes.projectsDescription}>
 				<p className={classes.projectTitle}>{props.projectInfo.title}</p>

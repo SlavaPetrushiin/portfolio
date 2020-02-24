@@ -12,19 +12,22 @@ class Projects extends React.Component {
                 title: "Burger shop",
                 description: "Лейдинг Бургерной",
                 url: siteBurger,
-                href: "https://slavapetrushiin.github.io/siteBurgers/"
+                href: "https://slavapetrushiin.github.io/siteBurgers/",
+                git: "https://github.com/SlavaPetrushiin/siteBurgers"
             },
             {
                 title: "ToDoList",
                 description: "Умное планирование задач!",
-                url: "https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg",
-				href: "https://slavapetrushiin.github.io/todolist/"
+                url: "https://i.etsystatic.com/14994315/r/il/f970b9/1234028275/il_1588xN.1234028275_r0k3.jpg",
+				href: "https://slavapetrushiin.github.io/todolist/",
+                git: "https://github.com/SlavaPetrushiin/todolist"
             },
             {
                 title: "Social network",
                 description: "Приложение социальная сеть",
-                url: "https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg",
-				href: "https://slavapetrushiin.github.io/social-network/"
+                url: "https://lr.maya.services/images/main_lr_logo.jpg",
+				href: "https://slavapetrushiin.github.io/social-network/",
+                git: "https://github.com/SlavaPetrushiin/social-network"
             },
             {
                 title: "Color rating",
