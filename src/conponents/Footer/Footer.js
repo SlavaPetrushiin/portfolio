@@ -11,7 +11,7 @@ function Footer() {
 					<h2 className={classes.footerTitle}>Вячеслав Петрушин</h2>
 					<div className={classes.socialLinks}>
 						<div className={classes.footerLink}>
-							<a href="#" target="_blank" rel="noreferrer noopener">
+							<a href="https://www.facebook.com/profile.php?id=100014479392445" target="_blank" rel="noreferrer noopener">
 								<FontAwesomeIcon icon={['fab', 'facebook']}/>
 							</a>
 						</div>
@@ -21,7 +21,7 @@ function Footer() {
 							</a>
 						</div>
 						<div className={classes.footerLink}>
-							<a href="#" target="_blank" rel="noreferrer noopener">
+							<a href="https://www.instagram.com/slava_petrushin_91/" target="_blank" rel="noreferrer noopener">
 								<FontAwesomeIcon icon={['fab', 'instagram']}/>
 							</a>
 						</div>

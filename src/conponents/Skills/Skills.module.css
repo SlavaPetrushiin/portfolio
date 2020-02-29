@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
 	background-color: #111112;
 	padding: 100px 0;
 	position: relative;
@@ -18,11 +17,11 @@
 .skillsDescriptions{
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: nowrap;
+	flex-flow: row wrap;
 	width: 100%;
 }
 
-@media (max-width: 800px){
+@media (max-width: 950px){
 	.skillsDescriptions{
 		flex-direction: column;
 	}	

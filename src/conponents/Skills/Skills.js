@@ -12,25 +12,31 @@ class Skills extends React.Component {
                 id: 0,
                 title: 'HTML',
                 url: 'https://www.bryan-myers.com/images/1x1/html5.png',
-                text: "Повседневная практика показывает, ."
+                text: ""
             },
             {
                 id: 1,
                 title: 'CSS',
-                url: 'https://i.ya-webdesign.com/images/css-3-logo-png-7.png',
-                text: "Повседневная практика показывает, что социально-экономическое развитие."
+                url: 'https://cdn.iconscout.com/icon/free/png-256/css-118-569410.png',
+                text: ""
             },
             {
                 id: 2,
                 title: 'React',
                 url: 'https://hsto.org/webt/bf/6m/q3/bf6mq3wmejwlzxaiuiseo0idri0.png',
-                text: "Повседневная практика показывает,."
+                text: ""
             },
             {
                 id: 3,
                 title: 'javascript',
-                url: 'https://hsto.org/webt/bf/6m/q3/bf6mq3wmejwlzxaiuiseo0idri0.png',
-                text: "Повседневная практика ."
+                url: 'https://vectorified.com/images/javascript-icon-35.png',
+                text: ""
+            },
+            {
+                id: 4,
+                title: 'redux',
+                url: 'https://cdn.iconscout.com/icon/free/png-256/redux-283024.png',
+                text: ""
             },
         ]
     }
