@@ -1,27 +1,145 @@
-.nav{
-	width: 360px;
-	display: flex;
-	justify-content: space-between;
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
-.link{
-	text-decoration: none;
-	color: #ffffff;
-	display: inline-block;
-	transition: all 0.5s ease 0s;
+
+/**** Desktop navigation*/
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.nav .active {
-	border-bottom: 1px solid #ffffff;
+.navItem {
+    margin-right: 50px;
 }
 
-.link:hover{
-	color: #5769bd;
+.navItem:last-child {
+    margin-right: 0;
 }
 
-@media (max-width: 480px){
-	.nav{
-		flex-direction: column;
-		align-items: center;
-	}	
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.navLink:hover {
+    color: #5769bd;
+}
+
+/*    Mobile navigation      */
+.menuIcon {
+    z-index: 19;
+    position: relative;
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Условие для экранов с шириной от 0 до 1200px */
+@media (max-width: 768px) {
+    .menuIcon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+.menuIconLine {
+    position: relative;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.menuIconLine::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: '';
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menuIconLine::after {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    content: '';
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menuIcon.menuIconActive .menuIconLine {
+    background-color: transparent;
+}
+
+.menuIcon.menuIconActive .menuIconLine::before {
+    transform: rotate(45deg);
+    top: 0;
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+.menuIcon.menuIconActive .menuIconLine::after {
+    transform: rotate(-45deg);
+    top: 0;
+    transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+/* ----------------- Мобильная навигация ----------------- */
+.mobileNav{
+	z-index: 9;
+	display: none;
+	position: fixed;
+	left: -280px;
+	top: 0;
+	height: 100%;
+	width: 280px;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+	transition: transform 0.4s ease-in;
+}
+
+@media (max-width: 768px) {
+    .mobileNav{
+        display: block;
+    }
+}
+
+.mobileNavActive {
+    transform: translateX(100%);
+}
+
+.mobileNavList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobileNavItem {
+    margin-bottom: 20px;
+}
+
+.mobileNavLink {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.mobileNavLink:hover {
+    color: #5769bd;
 }

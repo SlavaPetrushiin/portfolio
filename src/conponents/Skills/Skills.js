@@ -39,7 +39,7 @@ class Skills extends React.Component {
                 text: ""
             },
         ]
-    }
+    };
 
     render() {
         let elementsSkills = this.state.skills.map(skill => {
@@ -48,7 +48,7 @@ class Skills extends React.Component {
                 title={skill.title}
                 url={skill.url}
                 key={skill.id}/>
-        })
+        });
         return (
             <div id="skills" className={classes.skills}>
 				<Fade bottom>

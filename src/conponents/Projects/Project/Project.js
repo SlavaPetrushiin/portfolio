@@ -16,6 +16,7 @@ const Project = (props) => {
 			<div className={classes.projectsDescription}>
 				<p className={classes.projectTitle}>{props.projectInfo.title}</p>
 				<p className={classes.projectText}>{props.projectInfo.description}</p>
+				<p>{props.projectInfo.useTechnology}</p>
 			</div>
 		</div>			
 	)
