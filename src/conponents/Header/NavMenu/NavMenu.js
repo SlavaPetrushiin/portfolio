@@ -37,7 +37,7 @@ const NavItem = (props) => {
                 to={props.to}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={0}
                 duration={500}
                 className={classes.navLink}
             >

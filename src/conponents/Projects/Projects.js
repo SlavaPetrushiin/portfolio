@@ -3,6 +3,7 @@ import classes from './Projects.module.css';
 import Project from './Project/Project';
 import TitleBlock from '../commonBlocks/TitleBlock/TitleBlock';
 import siteBurger from './../../assets/img/burgers.jpg';
+import addingArticles from './../../assets/img/articles.jpg';
 import Fade from 'react-reveal/Fade';
 
 class Projects extends React.Component {
@@ -30,10 +31,17 @@ class Projects extends React.Component {
                 git: 'https://github.com/SlavaPetrushiin/react-quiz'
             },
             {
-                title: 'Color rating',
-                description: 'Рейтинг цветов',
-                url: 'https://www.beingeorge.com/jeffrey/assets/images/p1-1.jpg',
-				href: '',
+                title: 'Adding articles',
+                description: 'В приложении использовались следующии технологии: HTML, CSS, JavaScript. Приложение размещено на хостинге Firebase.',
+                url: addingArticles,
+				href: 'https://addnotes-29502.firebaseapp.com/',
+            },
+            {
+                title: 'Search user',
+                description: 'В приложении использовались следующии технологии: HTML, Bootstrap, React, Typescript, Axios. Приложение размещено на хостинге Firebase.',
+                url: 'https://maxcdn.icons8.com/Share/icon/Users/add_user_male1600.png',
+                href: 'https://slavapetrushiin.github.io/hooks/',
+                git: 'https://github.com/SlavaPetrushiin/hooks'
             },
         ]
     };
